@@ -3,7 +3,7 @@ import google.generativeai as genai
 import markdown
 
 app = Flask(__name__)
-GOOGLE_API_KEY = "AIzaSyDPAtGf-Rwe5nUQ_uDCiifRGVQxND5cB_c"
+GOOGLE_API_KEY = "add your api token"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel(model_name="gemini-pro")
 
